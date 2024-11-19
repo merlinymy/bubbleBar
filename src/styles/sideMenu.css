@@ -1,0 +1,36 @@
+:root {
+    --header-bg: rgb(21, 21, 21);
+    --font-color: white;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.menu-wrapper {
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-wrapper > button {
+    margin: 0rem 6rem;
+    font-size: 2rem;
+}
+
+#home-btn {
+    margin-top: 3rem;
+}
+
+.close-btn {
+    position: absolute;
+    left: 0%;
+    font-size: 3rem;
+}

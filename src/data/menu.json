@@ -225,13 +225,6 @@
         "type": "food"
       },
       {
-        "name": "Jumja Stick",
-        "description": "A sweet treat from Bajor, perfect for dessert.",
-        "price": 5,
-        "img": "jumja_stick.png",
-        "type": "food"
-      },
-      {
         "name": "Gagh Platter",
         "description": "Traditional Klingon dish of fresh gagh with sides.",
         "price": 14,
@@ -246,12 +239,19 @@
         "type": "food"
       },
       {
-        "name": "Raktajino Brownies",
-        "description": "Rich chocolate brownies infused with Raktajino coffee.",
-        "price": 7,
-        "img": "raktajino_brownies.png",
+        "name": "Photon Fries",
+        "description": "Crispy golden fries charged with a sprinkle of glowing star dust.",
+        "price": 8,
+        "img": "photon_fries.png",
         "type": "food"
-      }
+      },
+      {
+        "name": "Warp Speed Wings",
+        "description": "Spicy chicken wings marinated in a fiery sauce that hits warp factor 10.",
+        "price": 14,
+        "img": "warp_speed_wings.png",
+        "type": "food"
+      }            
     ]
   }
   

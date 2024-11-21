@@ -7,14 +7,15 @@ import { buildHeadSec } from "./scripts/headSec.js";
 import { buildAboutSec } from "./scripts/aboutSec.js";
 import { buildHourSec } from "./scripts/hoursSec.js";
 import { buildFooter } from "./scripts/footerSec.js";
-import { test } from "./scripts/cocktailMenu.js";
-import { buildBeerWineMenu, buildCocktailMenu, buildFoodMenu, buildSpiritMenu } 
-from "./scripts/cocktailMenu.js";
+import { buildMenu } from "./scripts/cocktailMenu.js";
 
 const menuBtn = document.querySelector(".menu-icon");
 const closeBtn = document.querySelector(".close-icon");
 const contentDiv = document.querySelector("#content");
 const cocktailBtns = document.querySelectorAll(".cocktail");
+const beerBtns = document.querySelectorAll(".beer");
+const spiritBtns = document.querySelectorAll(".spirit");
+const foodBtns = document.querySelectorAll(".food");
 const homeBtn = document.querySelector(".bar-name");
 const body = document.querySelector("body");
 // contentDiv.classList.add("fade-in", "fade-out");
@@ -40,7 +41,40 @@ for (const btn of cocktailBtns) {
             toggleMenu(false);
         }
         contentDiv.innerHTML = "";
-        contentDiv.append(buildCocktailMenu());
+        contentDiv.append(buildMenu('cocktail'));
+    })
+}
+
+for (const btn of spiritBtns) {
+    btn.addEventListener("click", (e) => {
+        e.preventDefault();
+        if (isPopUpNav) {
+            toggleMenu(false);
+        }
+        contentDiv.innerHTML = "";
+        contentDiv.append(buildMenu('spirit'));
+    })
+}
+
+for (const btn of foodBtns) {
+    btn.addEventListener("click", (e) => {
+        e.preventDefault();
+        if (isPopUpNav) {
+            toggleMenu(false);
+        }
+        contentDiv.innerHTML = "";
+        contentDiv.append(buildMenu('food'));
+    })
+}
+
+for (const btn of beerBtns) {
+    btn.addEventListener("click", (e) => {
+        e.preventDefault();
+        if (isPopUpNav) {
+            toggleMenu(false);
+        }
+        contentDiv.innerHTML = "";
+        contentDiv.append(buildMenu('beerNWine'));
     })
 }
 

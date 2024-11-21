@@ -41,7 +41,7 @@ for (const btn of cocktailBtns) {
             toggleMenu(false);
         }
         contentDiv.innerHTML = "";
-        contentDiv.append(buildMenu('cocktail'));
+        contentDiv.append(buildMenu('cocktail').menuTitleDiv, buildMenu('cocktail').menuWrapper);
     })
 }
 
@@ -52,7 +52,7 @@ for (const btn of spiritBtns) {
             toggleMenu(false);
         }
         contentDiv.innerHTML = "";
-        contentDiv.append(buildMenu('spirit'));
+        contentDiv.append(buildMenu('spirit').menuTitleDiv, buildMenu('spirit').menuWrapper);
     })
 }
 
@@ -63,7 +63,7 @@ for (const btn of foodBtns) {
             toggleMenu(false);
         }
         contentDiv.innerHTML = "";
-        contentDiv.append(buildMenu('food'));
+        contentDiv.append(buildMenu('food').menuTitleDiv, buildMenu('food').menuWrapper);
     })
 }
 
@@ -74,7 +74,7 @@ for (const btn of beerBtns) {
             toggleMenu(false);
         }
         contentDiv.innerHTML = "";
-        contentDiv.append(buildMenu('beerNWine'));
+        contentDiv.append(buildMenu('beerNWine').menuTitleDiv, buildMenu('beerNWine').menuWrapper);
     })
 }
 

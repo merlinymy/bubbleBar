@@ -41,6 +41,19 @@ nav.nav-head {
     color: var(--highlight-font);
 }
 
+@media (max-width:720px) {
+    .bar-name.icon {
+        font-size: 2rem;
+    }
+    header {
+        padding: 0.5rem;
+        background-color: var(--header-bg);   
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+}
+
 .material-symbols-outlined {
     display: none;
 }
@@ -180,5 +193,12 @@ section {
     position: sticky;
     top: 0;
     /* border: 1px solid green; */
+}
+
+h1 {
+    text-align: center;
+    color: var(--highlight-font);
+    padding-top: 0rem;
+    background-color: var(--font-color);
 }
 

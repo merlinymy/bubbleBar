@@ -62,24 +62,33 @@ const buildMenu = function(menuType) {
     //menuType is a string
 
     let itemList;
+    let menuTitle;
 
     switch (menuType) {
         case 'cocktail':
             itemList = cocktailList;
+            menuTitle = 'COCKTAILS';
             break;
         case 'beerNWine':
             itemList = beerWine;
+            menuTitle = 'BEER & WINE';
             break;
         case 'spirit':
             itemList = spiritList;
+            menuTitle = 'SPIRIT';
             break;
         case 'food':
             itemList = foodList;
+            menuTitle = 'FOOD';
+            break;
     }
 
 
     const menuWrapper = document.createElement("div");
     menuWrapper.classList.add("card-wrapper");
+    const menuTitleDiv = document.createElement("h1");
+    menuTitleDiv.textContent = menuTitle;
+
     const items = menu.menu.filter((item) => {
         return item.type === menuType;
     }); 
@@ -122,7 +131,7 @@ const buildMenu = function(menuType) {
     }
 
     console.log(menuWrapper);
-    return menuWrapper;
+    return {menuWrapper, menuTitleDiv};
 
 }
 

@@ -1,0 +1,257 @@
+{
+    "menu": [
+      {
+        "name": "Warp Core Breach",
+        "description": "A potent, glowing blue concoction simulating the energy of a starship core.",
+        "price": 15,
+        "img": "warp_core_breach.png",
+        "type": "cocktail"
+      },
+      {
+        "name": "Vulcan Mind Meld",
+        "description": "A serene green elixir infused with calming herbs, promoting inner peace.",
+        "price": 14,
+        "img": "vulcan_mind_meld.png",
+        "type": "cocktail"
+      },
+      {
+        "name": "Romulan Ale",
+        "description": "The infamous forbidden blue spirit, known for its intense potency.",
+        "price": 18,
+        "img": "romulan_ale.png",
+        "type": "cocktail"
+      },
+      {
+        "name": "Klingon Bloodwine",
+        "description": "A deep red, robust wine favored by warriors, with a fiery kick.",
+        "price": 16,
+        "img": "klingon_bloodwine.png",
+        "type": "cocktail"
+      },
+      {
+        "name": "Holodeck Hologram",
+        "description": "A multi-layered, color-shifting drink offering a new flavor with each sip.",
+        "price": 17,
+        "img": "holodeck_hologram.png",
+        "type": "cocktail"
+      },
+      {
+        "name": "Nebula Nectar",
+        "description": "A swirling purple beverage that captures the essence of a cosmic nebula.",
+        "price": 15,
+        "img": "nebula_nectar.png",
+        "type": "cocktail"
+      },
+      {
+        "name": "Ferengi Gold Press",
+        "description": "A shimmering golden cocktail, sweet and smooth, perfect for profit-minded traders.",
+        "price": 20,
+        "img": "ferengi_gold_press.png",
+        "type": "cocktail"
+      },
+      {
+        "name": "Andorian Frost",
+        "description": "An icy blue drink served at sub-zero temperatures, refreshing and brisk.",
+        "price": 14,
+        "img": "andorian_frost.png",
+        "type": "cocktail"
+      },
+      {
+        "name": "Trill Symbiosis",
+        "description": "A harmonious blend of flavors representing the unity of host and symbiont.",
+        "price": 15,
+        "img": "trill_symbiosis.png",
+        "type": "cocktail"
+      },
+      {
+        "name": "Borg Assimilation",
+        "description": "A black and green layered shot that delivers a powerful punch. Resistance is futile.",
+        "price": 10,
+        "img": "borg_assimilation.png",
+        "type": "cocktail"
+      },
+      {
+        "name": "Q Continuum",
+        "description": "An unpredictable cocktail that changes flavor and color, defying the laws of mixology.",
+        "price": 18,
+        "img": "q_continuum.png",
+        "type": "cocktail"
+      },
+      {
+        "name": "Temporal Distortion",
+        "description": "A vibrant orange drink that seems to ripple through time with a zesty kick.",
+        "price": 16,
+        "img": "temporal_distortion.png",
+        "type": "cocktail"
+      },
+      {
+        "name": "Starfleet Martini",
+        "description": "A classic martini with a futuristic twist, garnished with a glowing olive.",
+        "price": 19,
+        "img": "starfleet_martini.png",
+        "type": "cocktail"
+      },
+      {
+        "name": "Betazoid Bliss",
+        "description": "A delicate pink cocktail with telepathic hints of rose and lavender.",
+        "price": 14,
+        "img": "betazoid_bliss.png",
+        "type": "cocktail"
+      },
+      {
+        "name": "Mirror Universe",
+        "description": "A dark, mysterious drink with rich chocolate and coffee undertones.",
+        "price": 17,
+        "img": "mirror_universe.png",
+        "type": "cocktail"
+      },
+      {
+        "name": "Synthehol Lager",
+        "description": "A light beer with a clean finish, replicator-approved.",
+        "price": 8,
+        "img": "synthehol_lager.png",
+        "type": "beerNWine"
+      },
+      {
+        "name": "Klingon Ale",
+        "description": "A dark, bold beer for the bravest warriors.",
+        "price": 9,
+        "img": "klingon_ale.png",
+        "type": "beerNWine"
+      },
+      {
+        "name": "Andorian Pale Ale",
+        "description": "A crisp and frosty ale brewed in Andorian tradition.",
+        "price": 9,
+        "img": "andorian_pale_ale.png",
+        "type": "beerNWine"
+      },
+      {
+        "name": "Romulan Stout",
+        "description": "A rich and creamy stout brewed in secret.",
+        "price": 10,
+        "img": "romulan_stout.png",
+        "type": "beerNWine"
+      },
+      {
+        "name": "Bajoran Wheat Beer",
+        "description": "A refreshing wheat beer from the lush fields of Bajor.",
+        "price": 8,
+        "img": "bajoran_wheat_beer.png",
+        "type": "beerNWine"
+      },
+      {
+        "name": "Vulcan Red",
+        "description": "A logical choice, this red wine balances bold and earthy tones.",
+        "price": 12,
+        "img": "vulcan_red.png",
+        "type": "beerNWine"
+      },
+      {
+        "name": "Betazed Rose",
+        "description": "A sweet and fragrant wine from the empathic Betazoids.",
+        "price": 11,
+        "img": "betazed_rose.png",
+        "type": "beerNWine"
+      },
+      {
+        "name": "Cardassian Noir",
+        "description": "A dark, mysterious wine from the Cardassian Union.",
+        "price": 13,
+        "img": "cardassian_noir.png",
+        "type": "beerNWine"
+      },
+      {
+        "name": "Risan White",
+        "description": "A refreshing white wine perfect for tropical vacations.",
+        "price": 11,
+        "img": "risan_white.png",
+        "type": "beerNWine"
+      },
+      {
+        "name": "Terran Chardonnay",
+        "description": "A classic chardonnay with a twist from the mirror universe.",
+        "price": 12,
+        "img": "terran_chardonnay.png",
+        "type": "beerNWine"
+      },
+      {
+        "name": "Vulcan Firewater",
+        "description": "A fiery, intense spirit with a logical burn.",
+        "price": 14,
+        "img": "vulcan_firewater.png",
+        "type": "spirit"
+      },
+      {
+        "name": "Klingon Gagh Vodka",
+        "description": "A vodka with a uniquely bold and earthy aftertaste.",
+        "price": 15,
+        "img": "klingon_gagh_vodka.png",
+        "type": "spirit"
+      },
+      {
+        "name": "Andorian Ice Whisky",
+        "description": "A chilled whisky with frosty undertones.",
+        "price": 18,
+        "img": "andorian_ice_whisky.png",
+        "type": "spirit"
+      },
+      {
+        "name": "Romulan Flame",
+        "description": "A spirit that burns as bright as Romulan ambition.",
+        "price": 16,
+        "img": "romulan_flame.png",
+        "type": "spirit"
+      },
+      {
+        "name": "Ferengi Profit Brandy",
+        "description": "A sweet brandy that's pure profit.",
+        "price": 20,
+        "img": "ferengi_profit_brandy.png",
+        "type": "spirit"
+      },
+      {
+        "name": "Plomeek Soup",
+        "description": "A Vulcan classic, warm and logical.",
+        "price": 8,
+        "img": "plomeek_soup.png",
+        "type": "food"
+      },
+      {
+        "name": "Hasperat Wrap",
+        "description": "A spicy Bajoran delicacy in a soft wrap.",
+        "price": 9,
+        "img": "hasperat_wrap.png",
+        "type": "food"
+      },
+      {
+        "name": "Jumja Stick",
+        "description": "A sweet treat from Bajor, perfect for dessert.",
+        "price": 5,
+        "img": "jumja_stick.png",
+        "type": "food"
+      },
+      {
+        "name": "Gagh Platter",
+        "description": "Traditional Klingon dish of fresh gagh with sides.",
+        "price": 14,
+        "img": "gagh_platter.png",
+        "type": "food"
+      },
+      {
+        "name": "Tribble Tacos",
+        "description": "Soft tacos with unique fillings that won't reproduce.",
+        "price": 12,
+        "img": "tribble_tacos.png",
+        "type": "food"
+      },
+      {
+        "name": "Raktajino Brownies",
+        "description": "Rich chocolate brownies infused with Raktajino coffee.",
+        "price": 7,
+        "img": "raktajino_brownies.png",
+        "type": "food"
+      }
+    ]
+  }
+  

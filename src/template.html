@@ -8,25 +8,36 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="nav-head">
             <span class="material-symbols-outlined menu-icon">menu</span>
-            <button class="link">COCKTAILS</button>
-            <button class="link">FOOD</button>
+
+            <span class="material-symbols-outlined close-icon hidden">close</span>
+
+            <button class="link cocktail">COCKTAILS</button>
+            <button class="link food">FOOD</button>
             <button class="bar-name icon">BUBBLES</button>
-            <button class="link">BEER & WINE</button>
-            <button class="link">SPIRIT</button>
+            <button class="link beer">BEER & WINE</button>
+            <button class="link spirit">SPIRIT</button>
         </nav>
+        <div class="pop-up hidden">
+            <button class="link cocktail">COCKTAILS</button>
+            <button class="link food">FOOD</button>
+            <button class="link beer">BEER & WINE</button>
+            <button class="link spirit">SPIRIT</button>
+        </div>
     </header>
     <div id="content">
-        <section class="head">
+        <!-- <section class="head">
             <canvas id="bubbleCanvas"></canvas>
             <div class="title">
                 WHERE GOOD TIME RISE TO THE TOP
             </div>
+            <img id="almond" class="drinks" src="photos/gin1.png" alt="almond drink">
+            <img src="photos/coconuts.png" alt="fruit drink" id="fruity" class="drinks">
         </section>
         <section class="about"></section>
         <section class="hours"></section>
-        <section class="footer"></section>
+        <section class="footer"></section> -->
     </div>
 </body>
 </html>

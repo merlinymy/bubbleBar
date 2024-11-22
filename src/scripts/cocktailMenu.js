@@ -15,7 +15,6 @@ import temporal_distortion from "../photos/flux/cocktails/temporal_distortion.pn
 import starfleet_martini from "../photos/flux/cocktails/starfleet_martini.png";
 import betazoid_bliss from "../photos/flux/cocktails/betazoid_bliss.png";
 import mirror_universe from "../photos/flux/cocktails/mirror_universe.png";
-
 import synthehol_lager from "../photos/flux/beerNWine/synthehol_lager.png";
 import klingon_ale from "../photos/flux/beerNWine/klingon_ale.png";
 import andorian_pale_ale from "../photos/flux/beerNWine/andorian_pale_ale.png";

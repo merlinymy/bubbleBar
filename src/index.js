@@ -25,8 +25,7 @@ homeBtn.addEventListener("click", (e) => {
     e.preventDefault();
     // toggleMenu(false);
     contentDiv.innerHTML = "";
-    contentDiv.append(buildHeadSec(), buildAboutSec(),
-                        buildHourSec(), buildFooter());
+    contentDiv.append(buildHeadSec(), buildAboutSec(), buildHourSec(), buildFooter());
     animateBubbles();
     drawPhoto();
     if (isPopUpNav) {

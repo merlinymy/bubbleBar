@@ -78,7 +78,7 @@ for (const btn of beerBtns) {
 }
 
 contentDiv.append(buildHeadSec(), buildAboutSec(),
-buildHourSec(), buildFooter());
+buildHourSec());
 
 menuBtn.addEventListener("click", () => {
     toggleMenu(true);

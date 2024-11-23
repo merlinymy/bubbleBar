@@ -251,7 +251,14 @@
         "price": 14,
         "img": "warp_speed_wings.png",
         "type": "food"
-      }            
+      },
+      {
+        "name": "Tribble Chicken Strips",
+        "description": "Crispy chicken strips served with a tangy sauce, guaranteed not to multiply.",
+        "price": 12,
+        "img": "tribble_chicken_strips.png",
+        "type": "food"
+      }             
     ]
   }
   

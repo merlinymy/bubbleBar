@@ -18,6 +18,8 @@ const spiritBtns = document.querySelectorAll(".spirit");
 const foodBtns = document.querySelectorAll(".food");
 const homeBtn = document.querySelector(".bar-name");
 const body = document.querySelector("body");
+const linkedinIcon = document.querySelector("linked-in-icon");
+
 // contentDiv.classList.add("fade-in", "fade-out");
 let isPopUpNav = false;
 
@@ -25,7 +27,7 @@ homeBtn.addEventListener("click", (e) => {
     e.preventDefault();
     // toggleMenu(false);
     contentDiv.innerHTML = "";
-    contentDiv.append(buildHeadSec(), buildAboutSec(), buildHourSec(), buildFooter());
+    contentDiv.append(buildHeadSec(), buildAboutSec(), buildHourSec());
     animateBubbles();
     drawPhoto();
     if (isPopUpNav) {

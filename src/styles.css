@@ -27,6 +27,10 @@ header {
     z-index: 10;
 }
 
+body {
+    position: relative;
+}
+
 nav.nav-head {
     display: flex;
     justify-content: center;
@@ -209,10 +213,11 @@ h1 {
 }
 
 section.footer {
+    height: fit-content;
     display: flex;
     flex-direction: column;
     color: white;
-    padding: 1rem;
+    padding: 2rem 1.25rem;
     background-color: rgb(0, 0, 0);
 }
 
@@ -271,3 +276,33 @@ span.highlight {
     flex-direction: column;
     gap: 1rem;
 }
+
+.linked-in-icon-wrap {
+    position: fixed;
+    bottom: 3%;
+    right: 5%;
+    background-color: rgba(87, 87, 87, 0.322);
+    height: 50px;
+    width: 50px;
+    /* border-radius: 50px; */
+    z-index: 1002;
+    transition: all 500ms;
+
+}
+
+.linked-in-icon-wrap:hover {
+    background-color:  rgba(214, 214, 214, 0.322);
+    transition: all 500ms;
+}
+
+.linked-in-icon {
+    filter: invert(1);
+    transition: all 500ms;
+
+}
+
+.linked-in-icon:hover {
+    filter: invert(0);
+    transition: all 500ms;
+}
+

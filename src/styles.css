@@ -278,16 +278,15 @@ span.highlight {
 }
 
 .linked-in-icon-wrap {
-    position: fixed;
-    bottom: 3%;
-    right: 5%;
+    /* position: fixed; */
+    /* bottom: 3%;
+    right: 5%; */
     background-color: rgba(87, 87, 87, 0.322);
     height: 50px;
     width: 50px;
     /* border-radius: 50px; */
     z-index: 1002;
     transition: all 500ms;
-
 }
 
 .linked-in-icon-wrap:hover {
@@ -295,14 +294,38 @@ span.highlight {
     transition: all 500ms;
 }
 
-.linked-in-icon {
+.social-icon {
     filter: invert(1);
     transition: all 500ms;
 
 }
 
-.linked-in-icon:hover {
+.social-icon:hover {
     filter: invert(0);
     transition: all 500ms;
 }
 
+.git-icon-wrap {
+    /* position: fixed; */
+    /* bottom: 3%;
+    right: 10%; */
+    background-color: rgba(87, 87, 87, 0.322);
+    height: 50px;
+    width: 50px;
+    /* border-radius: 50px; */
+    z-index: 1002;
+    transition: all 500ms;
+}
+
+.git-icon-wrap:hover {
+    background-color:  rgba(214, 214, 214, 0.322);
+    transition: all 500ms;
+}
+.social-icon-wrap {
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    display: flex;
+    z-index: 1002;
+    flex-direction: column;
+}

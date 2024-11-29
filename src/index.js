@@ -23,6 +23,13 @@ const linkedinIcon = document.querySelector("linked-in-icon");
 // contentDiv.classList.add("fade-in", "fade-out");
 let isPopUpNav = false;
 
+const scrollToTop = function () {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
+
 homeBtn.addEventListener("click", (e) => {
     e.preventDefault();
     // toggleMenu(false);
@@ -33,11 +40,13 @@ homeBtn.addEventListener("click", (e) => {
     if (isPopUpNav) {
         toggleMenu(false);
     }
+    scrollToTop();
 });
 
 for (const btn of cocktailBtns) {
     btn.addEventListener("click", (e) => {
         e.preventDefault();
+        scrollToTop();
         if (isPopUpNav) {
             toggleMenu(false);
         }
@@ -49,6 +58,7 @@ for (const btn of cocktailBtns) {
 for (const btn of spiritBtns) {
     btn.addEventListener("click", (e) => {
         e.preventDefault();
+        scrollToTop();
         if (isPopUpNav) {
             toggleMenu(false);
         }
@@ -60,6 +70,7 @@ for (const btn of spiritBtns) {
 for (const btn of foodBtns) {
     btn.addEventListener("click", (e) => {
         e.preventDefault();
+        scrollToTop();
         if (isPopUpNav) {
             toggleMenu(false);
         }
@@ -71,6 +82,7 @@ for (const btn of foodBtns) {
 for (const btn of beerBtns) {
     btn.addEventListener("click", (e) => {
         e.preventDefault();
+        scrollToTop();
         if (isPopUpNav) {
             toggleMenu(false);
         }
